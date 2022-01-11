@@ -2,6 +2,7 @@ export const theme = {
   colors: {
     primary: 'blue',
     secondary: 'red',
+    white: '#fff',
   },
   font: {
     family: {
