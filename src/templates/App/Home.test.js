@@ -1,9 +1,10 @@
 import React from 'react';
-import { render, screen } from '@testing-library/react';
+import { screen } from '@testing-library/react';
+import { renderTheme } from '../../styles/render-theme';
 import Home from '.';
 
-test('renders learn react link', () => {
-  render(<Home />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+describe('<Home />', () => {
+  it('should render home', () => {
+    renderTheme(<Home />);
+  });
 });

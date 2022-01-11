@@ -1,5 +1,5 @@
-import { createGlobalStyle } from "styled-components";
-import { theme } from "./theme";
+import { createGlobalStyle } from 'styled-components';
+import { theme } from './theme';
 
 export const GlobalStyles = createGlobalStyle`
 
@@ -8,8 +8,17 @@ export const GlobalStyles = createGlobalStyle`
     padding: 0;
   }
 
+  html {
+    font-size: 62.5%;
+  }
+
   body {
-    background-color: ${ theme.colors.primary };
+    font-size: 1.6rem;
+    font-family: ${theme.fonts.family.default};
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: ${theme.fonts.family.default};
   }
 
 `;
