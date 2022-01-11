@@ -3,7 +3,7 @@ export const theme = {
     primary: 'blue',
     secondary: 'red',
   },
-  fonts: {
+  font: {
     family: {
       default: "'Open Sans', sans-serif",
       secondary: "'Montserrat', sans-serif",
